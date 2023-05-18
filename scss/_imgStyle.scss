@@ -1,0 +1,53 @@
+//marquee
+
+.marquee .mqicBox i {
+    background: url(../img/icon/bell.png)no-repeat center;
+    background-size: 100%;
+}
+
+//btnArea
+.btnArea .outterBox button i {
+    background: url(../img/icon/user.png)no-repeat center;
+    background-size: 100%;
+}
+
+//gameType
+.homeCenter .gameType:nth-child(odd){
+    background: url(../img/gameType_live.png)no-repeat center;
+    background-size: 100%;
+}
+
+.homeCenter .gameType:nth-child(even){
+    background: url(../img/gameType_poker.png)no-repeat center;
+    background-size: 100%;
+}
+
+//footer
+
+footer .home {
+    background: url(../img/icon/home.png)no-repeat center;
+    background-size: 100%;
+}
+footer .discount {
+    background: url(../img/icon/discount.png)no-repeat center;
+    background-size: 100%;
+}
+footer .wallet {
+    background: url(../img/icon/wallet.png)no-repeat center;
+    background-size: 100%;
+}
+footer .cs {
+    background: url(../img/icon/cs.png)no-repeat center;
+    background-size: 100%;
+}
+footer .member {
+    background: url(../img/icon/member.png)no-repeat center;
+    background-size: 100%;
+}
+
+//bg
+
+.bg {
+    background: url(../img/bg.png) no-repeat top center;
+    background-size: cover;
+}

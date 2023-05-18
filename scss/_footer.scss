@@ -1,0 +1,63 @@
+footer {
+    width: 100%;
+    height: 18vw;
+    background: $mainColor;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        li {
+            width: calc(100% / 5);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .home {
+                background-position-y: 0%;
+            }
+            .discount {
+                background-position-y: 0%;
+            }
+            .wallet {
+                background-position-y: 0%;
+            }
+            .cs {
+                background-position-y: 0%;
+            }
+            .member {
+                background-position-y: 0%;
+            }
+
+            i {
+                width: 8vw;
+                height: 8vw;
+            }
+
+            p {
+                color: $subFONT02;
+                font-size: 4vw;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+
+            &:active,&.active {
+                background: $footer_ACT;
+                
+                i {
+                    background-position-y: 100%;
+                }
+                p {
+                    color: $mainFONT;
+                }
+            }
+        }
+    }
+}

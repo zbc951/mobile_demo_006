@@ -1,0 +1,474 @@
+@charset "UTF-8";
+.marquee .mqicBox i {
+  background: url(../img/icon/bell.png) no-repeat center;
+  background-size: 100%;
+}
+
+.btnArea .outterBox button i {
+  background: url(../img/icon/user.png) no-repeat center;
+  background-size: 100%;
+}
+
+.homeCenter .gameType:nth-child(odd) {
+  background: url(../img/gameType_live.png) no-repeat center;
+  background-size: 100%;
+}
+
+.homeCenter .gameType:nth-child(even) {
+  background: url(../img/gameType_poker.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .home {
+  background: url(../img/icon/home.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .discount {
+  background: url(../img/icon/discount.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .wallet {
+  background: url(../img/icon/wallet.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .cs {
+  background: url(../img/icon/cs.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .member {
+  background: url(../img/icon/member.png) no-repeat center;
+  background-size: 100%;
+}
+
+.bg {
+  background: url(../img/bg.png) no-repeat top center;
+  background-size: cover;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+main {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html body main {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+  padding-bottom: 17vw;
+}
+html body .bg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+html header {
+  width: 100%;
+  height: 13vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffb21d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+html header img {
+  width: 18vw;
+  height: 5vw;
+  margin: auto;
+}
+html .ad {
+  width: 95%;
+  height: 64vw;
+  padding-top: 16vw;
+  overflow: hidden;
+  margin: 0 auto;
+}
+html .ad.swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  font-size: 0;
+}
+html .ad.swiper .swiper-wrapper .swiper-slide .banner {
+  width: 100%;
+  -o-object-fit: 100%;
+     object-fit: 100%;
+}
+html .marquee {
+  width: 95%;
+  height: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1vw auto 3vw;
+  background: #ffb21d;
+  border-radius: 50px;
+  position: relative;
+}
+html .marquee .mqicBox {
+  width: 14vw;
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3098039216);
+          box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3098039216);
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  z-index: 10;
+}
+html .marquee .mqicBox i {
+  width: 5.5vw;
+  height: 8vw;
+  margin: 0 0 0 -0.5vw;
+}
+html .marquee .textBox {
+  width: 98%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: inset 2px 0px 2px rgba(0, 0, 0, 0.3098039216);
+          box-shadow: inset 2px 0px 2px rgba(0, 0, 0, 0.3098039216);
+  border-radius: 50px;
+  overflow: hidden;
+  position: absolute;
+  right: 0.7%;
+  z-index: 5;
+}
+html .marquee .textBox .content {
+  color: #121212;
+  font-size: 4vw;
+  white-space: nowrap;
+  padding-left: 19vw;
+  -webkit-animation: mq 6s linear infinite;
+          animation: mq 6s linear infinite;
+}
+@-webkit-keyframes mq {
+  0% {
+    -webkit-transform: translateX(90%);
+            transform: translateX(90%);
+  }
+  100% {
+    -webkit-transform: translateX(-90%);
+            transform: translateX(-90%);
+  }
+}
+@keyframes mq {
+  0% {
+    -webkit-transform: translateX(90%);
+            transform: translateX(90%);
+  }
+  100% {
+    -webkit-transform: translateX(-90%);
+            transform: translateX(-90%);
+  }
+}
+html .btnArea {
+  width: 95%;
+  height: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb8f0f));
+  background: linear-gradient(to right, #ffb21d 0%, #fb8f0f 100%);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+html .btnArea .outterBox {
+  width: 98%;
+  height: 91%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3vw 3vw;
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+html .btnArea .outterBox button {
+  width: 11vw;
+  height: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#141414), to(#434343));
+  background: linear-gradient(to left, #141414 0%, #434343 100%);
+  color: #ffffff;
+  font-size: 5.8vw;
+  font-weight: bold;
+  border-radius: 5px;
+}
+html .btnArea .outterBox button i {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 6px;
+}
+html .btnArea .outterBox button:first-child {
+  width: 31vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, right top, left top, from(#141414), to(#434343));
+  background: linear-gradient(to left, #141414 0%, #434343 100%);
+  color: #fb9210;
+  font-size: 3.8vw;
+  font-weight: normal;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+html .btnArea .outterBox button:last-child {
+  font-size: 5.6vw;
+}
+html .homeCenter {
+  width: 95%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3vw 2fr;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 0vw 3vw;
+  padding: 3vw;
+  margin: 4vw auto;
+  overflow: overlay;
+  background: linear-gradient(45deg, #202020 0%, rgba(66, 66, 66, 0.5568627451) 100%);
+  border: 1px solid #7b7b7b;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.25) 10px 10px 8px rgba(0, 0, 0, 0.53);
+          box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.25) 10px 10px 8px rgba(0, 0, 0, 0.53);
+}
+html .homeCenter .gameType {
+  width: 100%;
+  height: 26vw;
+}
+html .homeCenter .gameType div {
+  padding: 2vw;
+}
+html .homeCenter .gameType div p {
+  text-align: center;
+}
+html .homeCenter .gameType div p.bigTitle {
+  color: #ffffff;
+  font-size: 3.6vw;
+  margin-bottom: 1vw;
+}
+html .homeCenter .gameType div p.smallTitle {
+  color: #ffb21d;
+  font-size: 1vw;
+  letter-spacing: 1vw;
+}
+html .homeCenter .gameType:nth-child(odd) {
+  padding: 8vw 0vw 8vw 20vw;
+}
+html .homeCenter .gameType:nth-child(even) {
+  padding: 8vw 20vw 8vw 0vw;
+}
+html .homeCenter .gameType:nth-child(even) .smallTitle {
+  margin-left: 1vw;
+}
+html footer {
+  width: 100%;
+  height: 18vw;
+  background: #ffb21d;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+html footer ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html footer ul li {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html footer ul li .home {
+  background-position-y: 0%;
+}
+html footer ul li .discount {
+  background-position-y: 0%;
+}
+html footer ul li .wallet {
+  background-position-y: 0%;
+}
+html footer ul li .cs {
+  background-position-y: 0%;
+}
+html footer ul li .member {
+  background-position-y: 0%;
+}
+html footer ul li i {
+  width: 8vw;
+  height: 8vw;
+}
+html footer ul li p {
+  color: #121212;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 5px;
+}
+html footer ul li:active, html footer ul li.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#1c1c1c));
+  background: linear-gradient(to bottom, #000000 0%, #1c1c1c 100%);
+}
+html footer ul li:active i, html footer ul li.active i {
+  background-position-y: 100%;
+}
+html footer ul li:active p, html footer ul li.active p {
+  color: #ffffff;
+}

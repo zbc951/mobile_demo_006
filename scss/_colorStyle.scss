@@ -1,0 +1,30 @@
+//主色
+$mainColor: #ffb21d;
+
+//字色
+$mainFONT: #ffffff;
+$subFONT: #fb9210;
+$subFONT02: #121212;
+
+//border色
+$border01: #000000;
+
+//marquee
+$mqicBG: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+$mqicSD: #0000004f;
+$mqtextBG: #ffffff;
+
+//btnArea
+$BTNareaBG: linear-gradient(to right, #ffb21d 0%, #fb8f0f 100%);
+$BTNBG: linear-gradient(to left, #141414 0%, #434343 100%);
+
+//footer
+$footer_ACT: linear-gradient(to bottom, #000000 0%, #1c1c1c 100%);
+
+@mixin homeCenter {
+    background: linear-gradient(45deg, #202020 0%, #4242428e 100%);
+    border: 1px solid #7b7b7b;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 79px rgb(255, 255, 255, 25%)
+                10px 10px 8px rgb(0, 0, 0, 53%);
+}
